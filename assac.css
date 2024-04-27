@@ -83,7 +83,8 @@ body {
 }
 #ac2-b-shadow {
     padding-left: 10px;
-    background-color: #5b2b29;
+    background: rgb(184,46,46);
+    background: linear-gradient(90deg, rgba(148,40,40,1) 0%, rgba(91,43,41,1) 100%);
     box-shadow: 0px 0px 10px black;
 }
 

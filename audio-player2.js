@@ -243,7 +243,8 @@
         }
         
         .audio-player {
-          background: #5b2b29;
+          background: rgb(184,46,46);
+          background: linear-gradient(90deg, rgba(148,40,40,1) 0%, rgba(91,43,41,1) 100%);
           border-radius: 5px;
           padding: 5px;
           color: #fff;
