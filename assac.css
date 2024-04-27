@@ -1,0 +1,147 @@
+@font-face {
+    font-family: AssacFont;
+    src: url(./fonts/Assassin.ttf);
+}
+* {
+    font-family: AssacFont;
+    font-size: 35px;
+}
+body {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+    overflow: hidden;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    background-color: black;
+}
+.fondo {
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+    width: 100%; height: 100%;
+    margin: 0;
+}
+.fondo img{
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+}
+/* /////////////////////////////////////// */
+.plus {
+    z-index: 101;
+    justify-content: left;
+    background-attachment: fixed;
+}
+/* /////////////////////////////////////// */
+.content1 {
+    width: 41%; height: 50%;
+    overflow-y: scroll;
+    margin-left: 15%;
+}
+.content1::-webkit-scrollbar {
+    display: none;
+}
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+.content1 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.content-titols {
+    z-index: 99;
+    position: absolute;
+    top: 15%;
+    margin-left: 13%;
+    /* background-color: red; */
+}
+.content-titols p {
+    margin: 0;
+    /* background-color: blue; */
+}
+.check {
+    visibility: hidden;
+    background-color: green;
+}
+.titol-text {
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+.titol-text:hover {
+    cursor: pointer;
+}
+#ac-check2, #ac-titol2 {
+    visibility: visible;
+    
+    color: white;
+}
+#ac2-b-shadow {
+    padding-left: 10px;
+    background-color: #5b2b29;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* /////////////////////////////////////// */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    height: 15%;
+}
+article {
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.a1 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.a2 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+#s_first {
+    margin-top: 5%;
+}
+#s_last {
+    margin-bottom: 5%;
+}
+/* /////////////////////////////////////// */
+.sect {
+    padding-top: 2px;
+    padding-bottom: 2px;}
+.sect {
+    background-image: linear-gradient(
+        transparent 20%,
+        currentColor 50%,
+        currentColor 50%,
+        transparent 80%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+}
+.sect p{
+    color: transparent;
+}
+/* /////////////////////////////////////// */
+audio-player {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 4%;
+}
+/*  */
